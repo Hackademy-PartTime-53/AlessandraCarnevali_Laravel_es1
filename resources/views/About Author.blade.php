@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -35,7 +38,7 @@
                 <a class="nav-link" href="/Personaggi">Personaggi</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">About Author</a>
+                <a class="nav-link" href="/About Author">About Author</a>
                 </li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -71,7 +74,7 @@
 
         <div class="col-4">
 
-          <h1 class="text-center py-5 text-success">Benvenuto nella Fanpage di {{$userName}}</h1>
+          <h1 class="text-center py-5 text-success">Taylor Jenkins Red</h1>
 
         </div>
     

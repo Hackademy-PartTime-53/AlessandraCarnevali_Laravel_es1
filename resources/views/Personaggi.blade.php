@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -26,16 +30,16 @@
                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                  <span class="navbar-toggler-icon"></span>
                     </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                   <ul class="navbar-nav mx-auto mb-2 ">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   <ul class="navbar-nav mx-auto mb-2">
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">I sette Mariti di Evelyn Hugo</a>
+                <a class="nav-link active" aria-current="page" href="/">I sette mariti di Evelyn Hugo</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="/Personaggi">Personaggi</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">About Author</a>
+                <a class="nav-link" href="/About Author">About Author</a>
                 </li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -71,7 +75,7 @@
 
         <div class="col-4">
 
-          <h1 class="text-center py-5 text-success">Benvenuto nella Fanpage di {{$userName}}</h1>
+          <h1 class="text-center py-5 text-success">Evelyn Hugo</h1>
 
         </div>
     

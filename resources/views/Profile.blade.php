@@ -25,7 +25,7 @@
       <!-- Inzio Navbar -->
           <nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
            <div class="container-fluid">
-             <a class="navbar-brand" href="/">Navbar</a>
+             <a class="navbar-brand" href="/">Home</a>
                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                  <span class="navbar-toggler-icon"></span>
                     </button>
@@ -69,17 +69,46 @@
 
         <main>
 
+        <!-- Primo Container -->
+
 
         <div class="container mx-auto d-flex justify-content-center align-item-center">  
 
         <div class="col-4">
 
-          <h1 class="text-center py-5 text-success">Taylor Jenkins Red</h1>
+          <h1 class="text-center py-5 text-success">Page Profile</h1>
 
         </div>
     
        </div>
+
+       <!-- Secondo Container -->
+
+       <div class="row px-5"><div class="container mx-auto d-flex justify-content-around align-item-center px-5">  
+
+    <div class="col-2 overflow-hidden rounded-circle">
+        <img src="{{$user['ProfileImg']}}" alt="" class="img-fluid">
+    </div>
+
+    <div class="col-7">
+
+    <p>{{$user['userName']}}</p>
+    <p class="text-muted">{{$user['email']}}</p>
+    <p>Età: {{$user['age']}}</p>
+
+
+
+    </div> 
+
+
+
+
+
+</div>
        
+
+    </div>
+
 
 
 
@@ -108,3 +137,4 @@
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
+

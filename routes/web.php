@@ -23,9 +23,9 @@ Route::get('/Personaggi', function(){
 });
 
 // Route di About Author
-Route::get('/About Author', function(){
+Route::get('/about-author', function(){
     $The_Seven_Husbands_of_Evelyn_Hugo = "About Author";
-    return view("About Author", compact("The_Seven_Husbands_of_Evelyn_Hugo"));
+    return view("about-author", compact("The_Seven_Husbands_of_Evelyn_Hugo"));
 });
 
 // Rout di Profile
